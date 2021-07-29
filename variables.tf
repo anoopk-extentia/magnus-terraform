@@ -14,7 +14,7 @@ variable "heroku_production_app" {}
 variable "heroku_region" {}
 
 variable "heroku_app_buildpacks" {
-  type = "list"
+  type = list(string)
 }
 
 # Addons variable
